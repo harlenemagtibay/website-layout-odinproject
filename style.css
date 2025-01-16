@@ -22,7 +22,7 @@ body {
 .main-header {
     display: flex;
     justify-content: space-between;
-    margin: 0px 7% 75px 7%;
+    margin: 0px 15% 75px 15%;
     padding-top: 10px;
     color: white;
 }
@@ -31,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px 75px 0px 75px;
+    margin: 0px 15% 0px 15%;
     gap: 40px;
     padding-bottom: 75px;
 }
@@ -95,14 +95,14 @@ a {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    padding: 35px;
+    padding: 50px;
 }
 
 .content-two {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 75px 0px 75px;
+    margin: 0px 70px 0px 75px;
     gap: 50px;
 }
 
@@ -128,11 +128,12 @@ a {
 .section-two {
     background-color: #E5E7EB;
     display: flex;
-    padding: 75px 0px 75px;
+    padding: 90px 0px 90px;
+    align-items: center;
 }
 
 .section-two .content-one {
-    margin: 0px 200px 0px 200px;
+    margin: 0px 25% 0px 25%;
 }
 
 .ins-quote {
@@ -149,16 +150,20 @@ a {
 }
 
 .section-three {
-    padding: 75px 130px;
+    padding: 90px 170px;
 }
 
 .section-three-container {
     background-color: #3882F6;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
     color: white;
     padding: 40px 100px;
     border-radius: 8px;
+    margin: 0px 3% 0px 3%;
+    max-width: 700px;
 }
 
 .left-main {
@@ -169,9 +174,23 @@ a {
 .section-three-container .sign-up-button {
     background-color: transparent;
     border: 2px solid white;
-    padding: 0px 35px;
-    border-radius: 8px;
+    padding: 10px 35px;
+    border-radius: 5px;
     color: white;
     font-weight: bold;
 
+}
+
+.section-one,
+.section-two,
+.section-three-container {
+    flex: auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
